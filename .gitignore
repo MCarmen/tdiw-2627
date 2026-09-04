@@ -1,0 +1,4 @@
+ftp_client/*
+ftp_server/*
+src/node_modules/*
+src/package-lock.json
