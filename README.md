@@ -1,12 +1,11 @@
 # TDIW
 Tecnologies de desenvolupament per a Internet i Web
 
-SESSIÓ DE PROBLEMES 11 – Representational State Transfer (REST)
+SESSIÓ DE PROBLEMES 0 – Tooling
 
 ## Local Requirements
 
-Locally, you will need to download the document pX_todo.xxx to fillout your answers. Choose one document format.
-
+None.
 
 ## Remote Requirements
 
@@ -21,17 +20,18 @@ To work with the new branch, you have two options:
 2. From the directory ``pX`` you can either clone the whole repo and select the ``pX`` branch, or just clone the specific branch:
 ``` shell
 cd my_local_dir/pX
+
 #cloning the whole repo and afterwards position to the branch pX.
-git clone https://github.com/MCarmen/tdiw.git
+git clone https://github.com/MCarmen/tdiw-2627.git
 #alternatively, clone just the branch pX.
-git clone --branch pX --single-branch https://github.com/MCarmen/tdiw.git
+git clone --branch pX --single-branch https://github.com/MCarmen/tdiw-2627.git
 ```
 
 ### Option 2: Fetch the new branch from your local repo
-1. Go to the directory where you have cloned the ``https://github.com/MCarmen/tdiw.git``repo and fetch the new branches.
+1. Go to the directory where you have cloned the ``https://github.com/MCarmen/tdiw-2627.git``repo and fetch the new branches.
 ``` shell
 #From VSCode open a terminal and position to the directory where you have the repo
-cd my_local_dir/tdiw
+cd my_local_dir/tdiw-2627
 git fetch
 ```
 
