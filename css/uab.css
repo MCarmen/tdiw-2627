@@ -1,0 +1,115 @@
+h1 {
+    color: darkblue;
+}
+
+h1, h3 {
+    font-style: italic;
+}
+
+header p {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.fancy {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+header.fancy {
+ color: magenta;
+}
+
+section.statistics header h3{
+    color: red;
+}
+
+table, th, td{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+p.important{
+    font-weight: bold;
+    font-size: 30px;
+    background-color: aqua;
+}
+
+img{
+    float: left;
+    padding: 0 0 0 10px;
+    text-decoration: none;
+}
+
+ul li{ /*perquè les “bullets” quedin alineades amb el text*/
+    list-style-position:inside;
+}
+
+/* completa */
+#container {
+    display: grid;
+    grid-template-areas: 
+     'header header'
+     'degreesList register'
+     'statistics statistics'
+     'footer footer';
+    background-color: lightgray;
+    gap: 5px;
+    padding: 5px;
+}
+
+/*Declaring the grid areas*/
+#header{
+    grid-area: header;
+}
+
+#degreesList{
+    grid-area: degreesList;
+}
+
+#register{
+    grid-area: register;
+}
+
+#statistics{
+    grid-area: statistics;
+}
+
+#footer{
+    grid-area: footer;
+}
+
+#container > header, #container > section, #container > footer {
+    background-color: white;
+    padding: 5px;
+    margin: 2px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+#container > footer {
+    text-align: right;
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media screen and (max-width: 600px){
+    #container {
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+    }
+}
+
+@keyframes rotateAnimation {
+    from {width: 0px;}
+    to {width: 100px; transform: rotate(360deg);}
+}
+
+#campus-e{
+    animation-name: rotateAnimation;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-delay: 1s;
+}
