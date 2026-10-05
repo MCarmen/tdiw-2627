@@ -59,7 +59,7 @@
                         <p>Tria la menció que t'atreu més:<p>
                         <select name="mencio" id="mencions">
                         <?php
-                            //TODO5: Load the mencions from the DB and show a tag option for eachone.
+                            //TODO5: Load the mencions from the DB and show a tag option for each one.
                         ?>
                         </select>
                         <br /><br />
