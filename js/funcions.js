@@ -14,7 +14,7 @@ async function carregaMencions(){
     document.getElementById("mencions").innerHTML = options
 }
 
-//Let's do the same as carregaMencions but using the JQuery library
+//TODO: Let's do the same as carregaMencions but using the JQuery library
 $(document).ready(function(){
     //completa
 });
