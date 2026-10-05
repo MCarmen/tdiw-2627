@@ -15,6 +15,7 @@ async function carregaMencions(){
 }
 
 //TODO: Let's do the same as carregaMencions but using the JQuery library
+//When the document is ready, meaning the browser has loaded it...
 $(document).ready(function(){
     //completa
 });
