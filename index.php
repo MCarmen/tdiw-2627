@@ -5,7 +5,8 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title> UAB/Enginyeria </title>
 	    <link rel="stylesheet" type="text/css" href="css/uab.css">
-	<!-- completa -->
+	<!-- TODO1: Load the JQuery library from:  https://code.jquery.com/jquery-4.0.0.js-->
+    <!-- TODO2: Load the js file -->
     </head>
     <body>
         <?php
@@ -45,19 +46,20 @@
                 </header>
                 <p> Si us plau facilita'ns les teves dades </p>
                 <div id="formDiv">
-                    <form method="post" action="registre.php">
+                    <!-- TODO4: request for the script registre.php when the form is submitted -->
+                    <form method="post" action="">
                         Nom complet: <input type="text" name="nom" /><br />
                         Password: <input type="password" name="clau" /><br />
                         Grau:
                         <select name="grau" id="graus">
                         <?php
-                            //completa
+                            //TODO3: Load the degrees from the Database
                         ?>
                         </select>
                         <p>Tria la menció que t'atreu més:<p>
                         <select name="mencio" id="mencions">
                         <?php
-                            //completa
+                            //TODO4: Load the mencions using AJAX
                         ?>
                         </select>
                         <br /><br />
