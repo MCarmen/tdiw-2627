@@ -10,7 +10,7 @@
     </head>
     <body>
         <?php
-		    //completa
+		    //TODO3: Load the degrees from the Database
         ?>
         <div id="layout">
             <!-- SECCIÓ 1 - Capçalera -->
@@ -53,13 +53,13 @@
                         Grau:
                         <select name="grau" id="graus">
                         <?php
-                            //TODO3: Load the degrees from the Database
+                            //TODO4: show a tag option for each degree.
                         ?>
                         </select>
                         <p>Tria la menció que t'atreu més:<p>
                         <select name="mencio" id="mencions">
                         <?php
-                            //TODO4: Load the mencions using AJAX
+                            //TODO5: Load the mencions from the DB and show a tag option for eachone.
                         ?>
                         </select>
                         <br /><br />
