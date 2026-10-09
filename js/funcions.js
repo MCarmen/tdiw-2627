@@ -14,8 +14,11 @@ async function carregaMencions(){
     document.getElementById("mencions").innerHTML = options
 }
 
+//Uncomment once you have loaded the JQuery library in the index.php.
 //TODO: Let's do the same as carregaMencions but using the JQuery library
 //When the document is ready, meaning the browser has loaded it...
+/*
 $(document).ready(function(){
     //completa
 });
+*/
