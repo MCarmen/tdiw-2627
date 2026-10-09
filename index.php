@@ -9,9 +9,6 @@
     <!-- TODO2: Load the js file -->
     </head>
     <body>
-        <?php
-		    //TODO3: Load the degrees from the Database
-        ?>
         <div id="layout">
             <!-- SECCIÓ 1 - Capçalera -->
             <header style="grid-area: titol">
@@ -46,20 +43,20 @@
                 </header>
                 <p> Si us plau facilita'ns les teves dades </p>
                 <div id="formDiv">
-                    <!-- TODO4: request for the script registre.php when the form is submitted -->
+                    <!-- TODO5: request for the script registre.php when the form is submitted -->
                     <form method="post" action="">
                         Nom complet: <input type="text" name="nom" /><br />
                         Password: <input type="password" name="clau" /><br />
                         Grau:
                         <select name="grau" id="graus">
                         <?php
-                            //TODO4: show a tag option for each degree.
+                            //TODO3: show a tag option for each degree.
                         ?>
                         </select>
                         <p>Tria la menció que t'atreu més:<p>
                         <select name="mencio" id="mencions">
                         <?php
-                            //TODO5: Load the mencions from the DB and show a tag option for each one.
+                            //TODO4: Load the mencions from the DB and show a tag option for each one.
                         ?>
                         </select>
                         <br /><br />
