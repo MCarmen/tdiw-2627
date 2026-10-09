@@ -1,0 +1,102 @@
+h1 {
+    color: darkblue;
+}
+
+h1, h3 {
+    font-style: italic;
+}
+
+header p {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.fancy {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+header.fancy {
+ color: magenta;
+}
+
+section.statistics header h3{
+    color: red;
+}
+
+table, th, td{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+p.important{
+    font-weight: bold;
+    font-size: 30px;
+    background-color: aqua;
+}
+
+img{
+    float: left;
+    padding: 0 0 0 10px;
+    text-decoration: none;
+}
+
+ul li{ /*perquè les “bullets” quedin alineades amb el text*/
+    list-style-position:inside;
+}
+
+#layout{
+    display: grid;
+    background-color: lightgray;
+    column-gap: 5px;
+    row-gap: 5px;
+    padding: 5px;
+    grid-template-areas: 
+        'titol titol'
+        'graus registre'
+        'stats stats'
+        'peu peu';
+}
+
+
+#layout>header, #layout>section, #layout>footer{
+    background-color: white;
+    padding: 5px;
+    margin: 2px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+#layout>footer{
+    text-align: right;
+}
+
+
+table{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media (max-width: 600px){
+    #layout{
+        grid-template-areas: 
+            'titol'
+            'graus' 
+            'registre'
+            'stats'
+            'peu';
+    }
+    #layout>header, #layout>section, #layout>footer{
+        text-align: left;
+    }
+}
+
+#campus-e{
+    animation-name: anim-campus-e;
+    animation-duration: 5s;
+    animation-delay: 1s;
+    animation-timing-function: linear;
+}
+
+@keyframes anim-campus-e {
+    0% {width: 0px; }
+    100% {width: 100px; transform: rotate(360deg);}
+}
