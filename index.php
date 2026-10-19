@@ -66,11 +66,7 @@
                     </select>
                     <p>Tria la menció que t'atreu més:</p>
                         <select name="mencio" id="mencions">
-                            <?php
-                            //solution 1: 
-                            //include_once __DIR__ . "/mencions.php"; 
-
-                            //solution 2: 
+                          <?php
                             $sql = "SELECT * FROM mencions WHERE grau=1";
                             $result = pg_query($con, $sql);
                             $rows = pg_fetch_all($result);
