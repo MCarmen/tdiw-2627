@@ -38,6 +38,7 @@ To work with the new branch, you have two options:
 cd public_html/problems/studentX/pX
 #cloning the whole repo and afterwards position to the branch pX.
 git clone https://github.com/MCarmen/tdiw-2627.git
+git switch pX
 #alternatively, clone just the branch pX.
 git clone --branch pX --single-branch https://github.com/MCarmen/tdiw-2627.git
 ```
