@@ -13,3 +13,4 @@ function connectaBD()
 	
 	return $connexio;	
 }
+?>
