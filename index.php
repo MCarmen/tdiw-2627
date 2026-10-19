@@ -6,9 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> UAB/Enginyeria </title>
     <link rel="stylesheet" type="text/css" href="css/uab.css">
-    <!-- TODO1: Load the JQuery library from:  https://code.jquery.com/jquery-4.0.0.js-->
     <script src="https://code.jquery.com/jquery-4.0.0.js"></script>
-    <!-- TODO2: Load the js file -->
     <script src="js/funcions.js"></script>
 </head>
 
@@ -47,24 +45,18 @@
             </header>
             <p> Si us plau facilita'ns les teves dades </p>
             <div id="formDiv">
-                <!-- TODO6: request for the script registre.php when the form is submitted -->
                 <form method="post" action="registre.php">
                     Nom complet: <input type="text" name="nom" /><br />
                     Password: <input type="password" name="clau" /><br />
                     Grau:
                     <select name="grau" id="graus">
-                        <?php
-                        //TODO4: show a tag option for each degree.
-                        //Step1: Stablish the DB connection
+                        <?php                        
                         include_once __DIR__ . "/connectaBD.php";
-                        $con = connectaBD();
-                        //Step2: Query the degrees from the DB.
+                        $con = connectaBD();                        
                         $sql = "SELECT * FROM graus";
                         $result = pg_query($con, $sql);
                         $rows = pg_fetch_all($result);
                         foreach ($rows as $row) {
-                            //Step3: Generate and option tag with the 'id' and the 'nom' of the degree register.
-                            //echo "<option value='".$row['id']."'>$row['nom']</option>";
                         ?>
                             <option value="<?= $row['id'] ?>"> <?= $row['nom'] ?> </option>
 
@@ -76,18 +68,14 @@
                     <p>
                         <select name="mencio" id="mencions">
                             <?php
-                            //TODO5: Load the mencions from the DB and show a tag option for each one.
                             //solution 1: 
                             //include_once __DIR__ . "/mencions.php"; 
 
                             //solution 2: 
-                            //Step2: Query the degrees from the DB.
                             $sql = "SELECT * FROM mencions WHERE grau=1";
                             $result = pg_query($con, $sql);
                             $rows = pg_fetch_all($result);
                             foreach ($rows as $row) :
-                                //Step3: Generate and option tag with the 'id' and the 'nom' of the degree register.
-                                //echo "<option value='".$row['id']."'>$row['nom']</option>";
                             ?>
                                 <option value="<?= $row['id'] ?>"> <?= $row['nom'] ?> </option>
 
