@@ -46,9 +46,9 @@
             <p> Si us plau facilita'ns les teves dades </p>
             <div id="formDiv">
                 <form method="post" action="registre.php">
-                    Nom complet: <input type="text" name="nom" /><br />
-                    Password: <input type="password" name="clau" /><br />
-                    Grau:
+                    <label>Nom complet: </label><input type="text" name="nom" /><br />
+                    <label>Password:</label> <input type="password" name="clau" /><br />
+                    <label>Grau:</label>
                     <select name="grau" id="graus">
                         <?php                        
                         include_once __DIR__ . "/connectaBD.php";
@@ -64,8 +64,7 @@
                         }
                         ?>
                     </select>
-                    <p>Tria la menció que t'atreu més:
-                    <p>
+                    <p>Tria la menció que t'atreu més:</p>
                         <select name="mencio" id="mencions">
                             <?php
                             //solution 1: 
