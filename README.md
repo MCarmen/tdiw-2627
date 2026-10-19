@@ -33,7 +33,7 @@ To work with the new branch, you have two options:
 
 ### Option 1: Create a subdirectory for each branch:
 1. Create a subdirectory in your directory ``public_html/problems/student1/pX``
-2. From the directory ``pX`` you can either clone the whole repo and select the ``pX`` branch, or just clone the specific branch:
+2. Open a terminal and from the directory ``pX`` you can either clone the whole repo and select the ``pX`` branch, or just clone the specific branch:
 ``` shell
 cd public_html/problems/studentX/pX
 #cloning the whole repo and afterwards position to the branch pX.
