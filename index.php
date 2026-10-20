@@ -49,7 +49,7 @@
                     <label>Nom complet: </label><input type="text" name="nom" /><br />
                     <label>Password:</label> <input type="password" name="clau" /><br />
                     <label>Grau:</label>
-                    <select name="grau" id="graus">
+                    <select name="grau" id="graus" onchange="carregaMencions()">
                         <?php                        
                         include_once __DIR__ . "/connectaBD.php";
                         $con = connectaBD();                        
