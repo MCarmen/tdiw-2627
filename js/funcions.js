@@ -14,3 +14,4 @@ async function carregaMencions() {
     document.getElementById("mencions").innerHTML = options
 }
 
+
