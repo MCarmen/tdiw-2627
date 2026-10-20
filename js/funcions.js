@@ -14,25 +14,3 @@ async function carregaMencions() {
     document.getElementById("mencions").innerHTML = options
 }
 
-//TODO: Let's do the same as carregaMencions but using the JQuery library
-//When the document is ready, meaning the browser has loaded it...
-
-$(document).ready(function() {
-    //completa
-    //step 0: get the degree selected by the user
-    $("#graus").change(function() {
-        
-        const degree = $("#graus").val()
-        //step 1: AJAX request 
-        //step 2: wait the AJAX response (mentions options)
-        $.ajax({
-            url: "mencions.php?grau=" + degree,
-            success: function(options){              
-                 //step 3: update the mentions select tag with the new options
-                $("#mencions").html(options)
-            }
-        });
-       
-    })
-
-});
