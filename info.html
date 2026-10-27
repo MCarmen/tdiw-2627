@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <title>TEST</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <h3>Form Example:</h3>
+  <form id="info" action="./upload_info.php" method="get">
+    <div>
+      <label>Name:</label> <input name="name" type="text" size="20" maxlength="60">
+    </div>
+    <div>
+      <label>Age:</label> <select name="age">
+        <option value="20">twenty</option>
+        <option value="21">twenty one</option>
+        <option value="22">twenty two</option>
+      </select>
+    </div>
+    <div>
+      <label>Receive updates?</label>
+      <input type="radio" name="updates" value="yes" required>Si
+      <input type="radio" name="updates" value="no">No<br />      
+    </div>
+    <div>
+      <input type="submit" value="ENVIAR">
+    </div>
+  </form> 
+</body>
+
+</html>

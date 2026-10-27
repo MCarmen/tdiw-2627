@@ -1,0 +1,17 @@
+form,
+main {
+  background-color: aliceblue;
+  display: flex;
+  flex-direction: column;
+  row-gap: 5px;
+  padding: 10px;
+}
+
+p {
+  font-weight: bold;
+}
+
+main input {
+  border: none;
+  background-color: aliceblue;
+}
