@@ -5,7 +5,7 @@ SESSIÓ DE PROBLEMES 6 – Arquitectura del protocol HTTP
 
 ## Local Requirements
 
-Locally, you will need to download the document p6_todo.xxx to fillout your answers. Chose one document format.
+Locally, you will need to download the document docs/p6_todo.xxx to fillout your answers. Chose one document format.
 
 ## Remote Requirements
 
