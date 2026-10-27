@@ -40,13 +40,13 @@ To work with the new branch, you have two options:
 ``` shell
 cd public_html/problems/studentX/pX
 #cloning the whole repo and afterwards position to the branch pX.
-git clone https://github.com/MCarmen/tdiw.git
+git clone https://github.com/MCarmen/tdiw-2627.git
 #alternatively, clone just the branch pX.
-git clone --branch pX --single-branch https://github.com/MCarmen/tdiw.git
+git clone --branch pX --single-branch https://github.com/MCarmen/tdiw-2627.git
 ```
 
 ### Option 2: Fetch the new branch from your local repo
-1. Go to the directory where you have clone the ``https://github.com/MCarmen/tdiw.git``repo and fetch the new branches.
+1. Go to the directory where you have clone the ``https://github.com/MCarmen/tdiw-2627.git``repo and fetch the new branches.
 ``` shell
 #From VSCode open a terminal and position to the directory where you have the repo
 cd public_html/problems/studentX/tdiw
