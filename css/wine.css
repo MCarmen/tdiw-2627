@@ -1,0 +1,49 @@
+#layout{
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+}
+#layout > header{
+  background-color: red;
+  text-align: center;
+}
+
+#layout > button{
+  width: 200px;
+  padding: 10px;
+}
+
+button.buy {
+  background-color: green;
+  color: white;
+}
+
+button.query{
+  background-color: orange;
+}
+
+button.ok{
+  padding: 3px;
+  width: 30px;
+}
+
+button.cart {
+  padding: 0px;
+}
+
+button.cart img {
+  width: 25px;
+  padding: 0px;
+}
+
+p.add {
+  background-color: yellow;
+}
+
+p.query{
+  background-color: aquamarine;
+}
+
+div.message > button {
+  margin-left: 5px;
+}
