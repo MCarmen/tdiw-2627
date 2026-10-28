@@ -55,3 +55,12 @@ git fetch
 ```
 
 2. Now, from VSCode, you can checkout the new branch.
+
+## Your web is accessible from the following URL
+### Working with cookies 
+<https://tdiw-XX.deic-docencia.uab.cat/problemes/XX/pX/tdiw-2627/index.php>
+
+### Working with sessions
+<https://tdiw-XX.deic-docencia.uab.cat/problemes/XX/pX/tdiw-2627/sessions.php>
+
+
