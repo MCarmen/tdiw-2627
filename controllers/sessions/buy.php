@@ -4,7 +4,7 @@
   $wineToBuy = $_REQUEST['type'];
 
   if(!isset($_SESSION['cart'])){
-    $_SESSION['cart']=array();
+    $_SESSION['cart'] = [];
   }
 
   array_push($_SESSION['cart'], $wineToBuy);
