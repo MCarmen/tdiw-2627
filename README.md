@@ -7,30 +7,29 @@ SESSIÓ DE PROBLEMES 8 – protocol HTTP: State Management
 
 1. Locally, you will need to download the document p8_todo.xxx to fillout your answers. Chose one document format.
 
-## Remote Requirements
+## Requirements
 
-2. We will use the Apache Server + PHP module you use in the labs:
+We will use the Apache Server + PHP module you use in the labs:
 
-  1. Start the fortyclient program.  
-  2. Use the VSCode remote connection to connect to the lab using the command:  
+1. Start the fortyclient program.  
+2. Use the VSCode remote connection to connect to the lab using the command:  
    ```shell
    ssh -p 170 tdiw-XX@deic-dcX.uab.cat
    ```
 
-  3. In the public_html directory, create the directory problems.
+3. In the public_html directory, create the directory problems.
     ```text
     public_html/
     └── problems/
     ```
 
-  4. In the public_html/problems directory, create a directory for each student of the group:
+4. In the public_html/problems directory, create a directory for each student of the group:
     ```text
     public_html/
     └── problems/
         ├── student1/
         └── student2/
-    ```
-  5. Optional: You can create a directory for     
+    ```  
 ## Working with the new branch
 
 To work with the new branch, you have two options:
